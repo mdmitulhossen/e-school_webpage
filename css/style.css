@@ -23,15 +23,92 @@ nav img{
 .navbar-nav li{
   margin-right: 20px;
 }
-.navbar-nav li button {
+
+.btn {
   border-radius: 33px;
   padding: 12px, 28px, 12px, 28px;
   background-color: #21B573;
   border: none;
 
 }
-.navbar-nav li button:hover {
+.btn:hover {
   background-color: #21b572b0;
 }
 
 /*========= Navbar End ========*/
+ .header_img {
+  width: 500px;
+  height: 346px;
+  margin-left: 65px;
+  margin-top: 10px;
+}
+#header_img{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .row {
+   padding: 0 20px;
+   
+}
+.header {
+  margin-top: 30px;
+} 
+.header .row .describe {
+  margin-top: 40px;
+  margin-left: 15px;
+  width: 500px;
+} 
+.describe h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 70px;
+} 
+.describe p{
+  font-size: 16px;
+  line-height: 36px;
+}
+.describe p:first-child{
+  color: #FD511A;
+}
+.describe p:last-child{
+  color: #6C6B6B;
+}
+
+span {
+  color:#21B573;
+}
+ 
+
+.card_section{
+ text-align: center;
+}
+
+.card-img-top {
+  width: 66px;
+  height: 85px;
+  margin: 30px auto;
+
+}
+.card-body {
+  margin: 0px 30px 30px 30px;
+
+}
+.cards_container{
+  background-color: white;
+  margin: 50px;
+}
+.card {
+  background-color: #F8FFFB;
+  border-radius: 5px;
+}
+.card-body h4 {
+  color: #585859;
+}
+#card2{
+  background-color: white;
+}
+.card:hover {
+  border: 2px solid blue;
+}
